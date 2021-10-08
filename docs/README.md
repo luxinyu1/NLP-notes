@@ -1,3 +1,3 @@
 # ✏️ NLP-notes
 
-> An awesome project.
+> 网站需要加载外网 js 脚本和访问 github 资源，可能部分地区会出现加载缓慢 / 显示不全的问题，可以尝试在使用 VPN 的环境下访问 🚀
