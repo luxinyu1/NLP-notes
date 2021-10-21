@@ -63,9 +63,9 @@ __all__ = ["echo", "surround", "reverse"]
 
 这样就意味着，如果碰到了```from sound.effects import *```这样的引用，应该导入 ```echo```,  ```surround```,  ```reverse``` 三个子模块。
 
-事实上，是否维护```__init.py__```就要看包开发者的心情了，所以**一般情况下别随便用** ```import *``` 这样可读性不高的语句。
+事实上，是否维护```__init.py__```就要看包开发者的心情了，所以**一般情况下应该避免使用** ```import *``` 这样可读性不高的语句。
 
-毕竟，这样引用不好吗：
+毕竟，这样引用一个包明显可读性更好：
 
 ```
 from package import specific_submodule
@@ -83,7 +83,7 @@ for p in sys.path:
 
 在实际开发中，默认包含了当前目录为搜索路径，所以，当前目录下的模块和子模块均可以正常访问。但是若一个模块**在该模块所在目录**直接运行，同时需要 ```import``` 平级的不同目录的模块，或者上级目录里面的模块，就可以通过修改 ```sys.path``` 这个列表来实现。
 
-不过，模块所在目录直接运行代码应该尽量避免为好。
+不过，在模块所在目录直接运行代码应该尽量避免为好。
 
 ## 基本包结构
 
@@ -136,5 +136,7 @@ package_name/
 ## 参考
 
 https://python-packaging-tutorial.readthedocs.io/en/latest/setup_py.html
+
 https://packaging.python.org/tutorials/packaging-projects/
+
 https://packaging.python.org/guides/using-manifest-in/

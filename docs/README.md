@@ -4,13 +4,13 @@
 
 ## How to contribute?
 
-1. 🧑‍🤝‍🧑 Fork 本项目
-2. ✏️ 在 ```docs/```对应的目录下添加 Markdown 笔记
-3. ✨ 更新受影响的目录
-4. ✔️ 本地运行，检查笔记是否显示正常
+1. Fork 本项目
+2. 在 ```docs/```对应的目录下添加 Markdown 笔记
+3. 更新受影响的目录
+4. 本地运行，检查笔记是否显示正常
     ```shell
     npx docsify serve docs
     ```
-5. 🎈 提交 Pull Request
+5. 提交 Pull Request
 
 > <font face="Times New Roman" size="4" color="grey">"Trying to understand things well and explain them clearly." -- Christopher Olah</font>
