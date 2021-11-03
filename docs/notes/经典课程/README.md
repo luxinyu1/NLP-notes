@@ -4,6 +4,7 @@
 ### CS228 - Probabilistic Graphical Models - 概率图模型
 ### CS229 - Machine Learning - 机器学习
 ### CS230 - Deep Learning - 深度学习
+### CS329P - Practical Machine Learning - 动手学深度学习
 ### [ENGR108/EE103 - Introduction to Matrix Methods - 线性代数](/notes/经典课程/ENGR108/)
 ### EE364a - Convex Optimization I - 凸优化
 ### Vector Calculus for Engineers - 面向工程师的向量演算
