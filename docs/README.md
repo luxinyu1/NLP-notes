@@ -4,7 +4,10 @@
 
 ## How to contribute?
 
-1. Fork 本项目
+1. Fork 本项目并安装 ```docsify-cli```
+    ```shell
+    npm i docsify-cli -g
+    ```
 2. 在 ```docs/```对应的目录下添加 Markdown 笔记
 3. 更新受影响的目录
 4. 本地运行，检查笔记是否显示正常
