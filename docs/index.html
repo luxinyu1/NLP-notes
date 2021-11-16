@@ -32,6 +32,7 @@
         crossChapter: true,
         crossChapterText: true,
       },
+      ga: 'UA-212976102-2'
     }
   </script>
   <!-- Docsify v4 -->
@@ -40,6 +41,23 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+  <script>
+    const gitalk = new Gitalk({
+      clientID: '58174b0da4671257da0f',
+      clientSecret: '769b894ba6a3e1abcc9d4f49ce20213440dbbf9b',
+      repo: 'NLP-notes-comments',
+      owner: 'luxinyu1',
+      admin: ['luxinyu1'],
+      // facebook-like distraction free mode
+      distractionFreeMode: false,
+      id: decodeURI(window.location.pathname)
+    })
+  </script>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
 </body>
 </html>
